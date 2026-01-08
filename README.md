@@ -1,112 +1,119 @@
-Customer Shopping Behavior Analysis
+Data Analytics Project – End-to-End Analysis & Dashboard
+📌 Overview
 
-End-to-End Data Analytics Project | Python • SQL (MySQL) • PostgreSQL • Power BI
+This project demonstrates a complete end-to-end data analytics workflow, starting from raw data exploration to business insights and visualization. The objective is to analyze customer and transaction data, uncover meaningful patterns, and present insights through SQL analysis, dashboards, and business reporting.
 
- Project Overview
- 
-This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories. The goal is to uncover actionable insights related to spending patterns, product preferences, discount sensitivity, subscription behavior, and customer segmentation to support data-driven business decisions.
+The project focuses on applying practical analytics skills used in real-world data analyst roles, including Python-based data preparation, SQL querying, and Power BI visualization.
 
-The project follows a complete analytics lifecycle — from data cleaning and feature engineering in Python, to business analysis using SQL, and final storytelling through an interactive Power BI dashboard.
+📂 Dataset
 
- Dataset Summary
+The dataset contains customer-level and transaction-level data
 
-Total Transactions: 3,900
+Includes demographic information, purchase details, behavioral metrics, and subscription-related fields
 
-Total Features: 18
+Data was analyzed for quality issues such as missing values and inconsistencies before use
 
-Data Types: Customer demographics, transaction details, and behavioral metrics
+🛠 Tools & Technologies
 
-Key Attributes
+Python – Data loading, EDA, data cleaning, feature engineering
 
-Customer: Age, Gender, Location, Subscription Status
+SQL – Business analysis using PostgreSQL / MySQL / SQL Server
 
-Transaction: Product, Category, Amount, Season, Size, Color
+Power BI – Interactive dashboard and visual storytelling
 
-Behavioral: Discounts, Purchase Frequency, Previous Purchases, Ratings, Shipping Type
+Gamma – Business presentation (PPT) creation
 
-Data Quality Handling
+Excel / CSV – Data storage and intermediate outputs
 
-Missing review ratings were imputed using median values per product category
+🔄 Project Workflow
+1️⃣ Data Loading & Exploration (Python)
 
-Redundant features were identified and removed to improve analytical clarity
+Imported dataset using pandas
 
-Tools & Technologies
+Reviewed structure, data types, and summary statistics
 
-Python: pandas, numpy (EDA, cleaning, feature engineering)
+Identified missing values and data inconsistencies
 
-SQL: MySQL (business analysis queries)
+2️⃣ Data Cleaning & Preparation
 
-Database: PostgreSQL (cleaned data storage)
+Handled missing values using appropriate statistical methods
 
-Visualization: Power BI (interactive dashboard)
+Standardized column names and formats
 
- Analytical Workflow
-1️ Data Cleaning & Feature Engineering (Python)
+Created derived features to support deeper analysis
 
-Standardized column naming (snake_case)
+Validated data before database loading
 
-Created age_group for demographic analysis
+3️⃣ SQL-Based Analysis
 
-Engineered purchase_frequency_days to better reflect buying behavior
+Loaded cleaned data into a relational database
 
-Validated and optimized schema before database loading
+Executed SQL queries to answer business questions such as:
 
- Business Analysis (SQL – MySQL)
+Revenue and sales trends
 
-Key business questions answered:
+Customer segmentation
 
-Revenue contribution by gender
+Subscription vs non-subscription behavior
 
-Spending comparison: subscribers vs non-subscribers
+Product and category performance
 
-Identification of high-value discount shoppers
+Used joins, aggregations, filtering, and conditional logic
 
-Top-rated products and most purchased items by category
+4️⃣ Power BI Dashboard
 
-Impact of shipping method on purchase value
+Built an interactive dashboard to visualize:
 
-Customer segmentation (New, Returning, Loyal)
+Key KPIs
 
-Relationship between repeat purchases and subscription adoption
+Revenue and sales distribution
 
-Revenue distribution across age groups
+Customer segments and demographics
 
- Power BI Dashboard
+Subscription and purchase behavior
 
-An interactive dashboard was built to communicate insights visually, featuring:
+Enabled filters for dynamic analysis
 
-Total customers & average purchase value
+5️⃣ Reporting & Presentation
 
-Revenue by product category
+Created a structured project report explaining methodology and insights
 
-Subscription distribution
+Designed a business presentation (PPT) using Gamma for clear stakeholder communication
 
-Sales and revenue by age group
+📈 Dashboard Highlights
 
-Discount and shipping behavior filters
+Total customers and average purchase metrics
 
-The dashboard enables dynamic exploration of customer behavior and supports business storytelling.
+Revenue breakdown by category and customer segment
 
-Key Business Insights
+Subscription distribution and impact analysis
 
-Loyal customers form the largest customer segment
+Demographic-based revenue insights
 
-Subscription users contribute significant long-term value
+💡 Key Results & Insights
 
-Certain products show high discount dependency
+Identified high-value customer segments
 
-Young and middle-aged customers generate the highest revenue
+Analyzed purchasing patterns across demographics
 
-Express shipping customers tend to have higher purchase values
+Compared performance between subscribers and non-subscribers
 
- Recommendations
+Highlighted products and categories driving the most revenue
 
-Increase subscription adoption via targeted incentives
+Provided data-driven recommendations for business decision-making
 
-Strengthen loyalty programs to convert returning customers
+▶️ How to Run the Project
 
-Optimize discount strategies to protect margins
+Clone this repository
 
-Focus promotions on high-rated, high-volume products
+Open the Python notebooks/scripts and install required libraries
 
-Allocate marketing spend toward high-revenue age segments
+Run the Python scripts for data cleaning and EDA
+
+Load the cleaned dataset into your SQL database (PostgreSQL / MySQL / SQL Server)
+
+Execute SQL queries from the sql/ folder
+
+Open the Power BI file to explore the dashboard
+
+Review the report and presentation for summarized insights
