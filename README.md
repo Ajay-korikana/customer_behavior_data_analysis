@@ -1,11 +1,11 @@
 Data Analytics Project – End-to-End Analysis & Dashboard
-📌 Overview
+ Overview
 
 This project demonstrates a complete end-to-end data analytics workflow, starting from raw data exploration to business insights and visualization. The objective is to analyze customer and transaction data, uncover meaningful patterns, and present insights through SQL analysis, dashboards, and business reporting.
 
 The project focuses on applying practical analytics skills used in real-world data analyst roles, including Python-based data preparation, SQL querying, and Power BI visualization.
 
-📂 Dataset
+ Dataset
 
 The dataset contains customer-level and transaction-level data
 
@@ -25,8 +25,8 @@ Gamma – Business presentation (PPT) creation
 
 Excel / CSV – Data storage and intermediate outputs
 
-🔄 Project Workflow
-1️⃣ Data Loading & Exploration (Python)
+ Project Workflow
+1️ Data Loading & Exploration (Python)
 
 Imported dataset using pandas
 
@@ -34,7 +34,7 @@ Reviewed structure, data types, and summary statistics
 
 Identified missing values and data inconsistencies
 
-2️⃣ Data Cleaning & Preparation
+2️ Data Cleaning & Preparation
 
 Handled missing values using appropriate statistical methods
 
@@ -44,7 +44,7 @@ Created derived features to support deeper analysis
 
 Validated data before database loading
 
-3️⃣ SQL-Based Analysis
+3️ SQL-Based Analysis
 
 Loaded cleaned data into a relational database
 
@@ -60,7 +60,7 @@ Product and category performance
 
 Used joins, aggregations, filtering, and conditional logic
 
-4️⃣ Power BI Dashboard
+4️ Power BI Dashboard
 
 Built an interactive dashboard to visualize:
 
@@ -74,13 +74,13 @@ Subscription and purchase behavior
 
 Enabled filters for dynamic analysis
 
-5️⃣ Reporting & Presentation
+5️ Reporting & Presentation
 
 Created a structured project report explaining methodology and insights
 
 Designed a business presentation (PPT) using Gamma for clear stakeholder communication
 
-📈 Dashboard Highlights
+ Dashboard Highlights
 
 Total customers and average purchase metrics
 
@@ -90,7 +90,7 @@ Subscription distribution and impact analysis
 
 Demographic-based revenue insights
 
-💡 Key Results & Insights
+ Key Results & Insights
 
 Identified high-value customer segments
 
@@ -102,7 +102,7 @@ Highlighted products and categories driving the most revenue
 
 Provided data-driven recommendations for business decision-making
 
-▶️ How to Run the Project
+ How to Run the Project
 
 Clone this repository
 
